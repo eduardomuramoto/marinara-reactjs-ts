@@ -19,6 +19,10 @@ export const ButtonContainer = styled.button<ButtonContainerProps>`
   border-radius: 4px;
   border: 0;
   margin: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
 
   background-color: ${props => props.theme['green-500']};  color: ${props => props.theme.white};
 
